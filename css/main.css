@@ -1,0 +1,100 @@
+/* raleway-300 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-regular - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-500 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+    body {
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+    } 
+    main {
+        padding: 70px 66px;
+        width: 100%;
+        background-color: #F8F8F8;;
+    }
+    .big_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 53px;
+        padding-right: 74px;
+        padding-left: 53px;
+        border-radius: 22px;
+        width: 680px;
+        height: 446px;
+        background-image:linear-gradient( to right, #FFD500 33%,  #FFFFFF 0%);
+    }
+    .wrapper_twou{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         width: 402px;
+        height: 446px; 
+    }
+    input {
+        margin-bottom: 11px;
+        width: 191px;
+        height: 27px;
+        background: rgba(245, 248, 249, 0.3);
+        border: 0.586985px solid #CAD7DD;
+        border-radius: 2.64604px;
+        outline: none;
+    }
+    
+   
+    .box_gender {
+        display: flex;
+        align-items: center;
+    }
+    
+    label {
+
+        margin-right: 27px;
+    }
+    .icon_gender {
+        display: flex;
+        background: #F5F8F9;
+        width: 27;
+        height: 27px;
+        border-radius: 50px;
+    }
+    .box_for_cassed {
+        display: flex;
+        align-items: center;
+        
+    }
+    
